@@ -1,0 +1,268 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: black;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.break::after {
+    content: '\A';
+    white-space: pre;
+}
+
+/* HEADER ON */
+@keyframes welcome {
+    from {
+        color: lightpink;
+    }
+
+    to {
+        color: lightcoral;
+    }
+}
+
+h1 {
+    padding-top: 1.250%;
+    animation: welcome 1s infinite alternate linear;
+}
+
+.stick {
+    position: fixed;
+    top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: papayawhip;
+}
+
+nav ul li:hover {
+    box-shadow: 0em 0em 0.25em 0.150em lightcoral;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+section {
+    height: 100vh;
+}
+
+#aboutMe {
+    margin: 1% auto;
+}
+
+#profilePic {
+    height: 27em;
+    width: auto;
+}
+
+figure img {
+    border: 0.2em double lightblue;
+    height: 25em;
+    width: auto;
+}
+
+figure img:hover {
+    box-shadow: 0em 0em 1.25em 0.625em skyblue;
+}
+
+.pic {
+    margin: 2.5% auto;
+}
+
+.presentation {
+    font-style: italic;
+}
+
+/* HEADER OFF */
+
+/* CONTACT SECTION ON */
+address {
+    margin: 2.5% auto;
+}
+
+.contactMe {
+    margin-top: 5em;
+}
+
+/* .contactMe ul li {
+    padding: 0.5%;
+} */
+
+address ul li {
+    display: inline-block;
+    width: fit-content;
+    margin: 1% auto;
+    cursor: pointer;
+    background-color: papayawhip;
+    border: 0.5em double #ee0979;
+    border-radius: 15%;
+}
+
+address li:hover {
+    border: 0.5em double #dda0dd;
+}
+
+address li h3:hover {
+    color: #dda0dd;
+}
+
+address ul li a,
+li h3 {
+    font-style: normal;
+}
+
+address ul li a {
+    padding: 1% 50%;
+}
+
+@keyframes iconColor {
+    from {
+        color: #dda0dd;
+    }
+
+    to {
+        color: #ee0979;
+    }
+}
+
+i {
+    width: 5em;
+    animation: iconColor 1s infinite alternate linear;
+}
+
+fieldset {
+    width: fit-content;
+}
+
+.map {
+    margin: 1% auto;
+    font-style: italic;
+}
+
+iframe {
+    display: table;
+    margin: 0 auto;
+    border: 0.2em double rgb(255, 112, 255);
+}
+
+iframe:hover {
+    box-shadow: 0em 0em 1.25em 0.625em rgba(238, 9, 121, 0.5);
+}
+
+/* CONTACT SECTION OFF */
+
+/* INTERESTS SECTION ON */
+.interview {
+    display: block;
+    margin: 2% 1%;
+    padding: 1% 1%;
+}
+
+.interview h3 {
+    background-color: lightpink;
+    width: fit-content;
+}
+
+#imgApi {
+    width: 20%;
+    height: 10%;
+    border-radius: 15%;
+}
+
+/* INTERESTS SECTION OFF */
+
+/* EXPERIENCE SECTION ON */
+
+.projectIcon {
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.projects {
+    margin: 2% auto;
+}
+
+.projects a img {
+    margin: 1% auto;
+    border: 0.5em double papayawhip;
+    cursor: pointer;
+}
+
+.projects a img:hover {
+    box-shadow: 0em 0em 0.25em 0.150em lightcoral;
+}
+
+.projects h3 {
+    background-color: lightpink;
+    width: fit-content;
+    display: table;
+    margin: 0 auto;
+}
+
+.skills {
+    margin: 2% auto;
+}
+
+.skills h2 {
+    background-color: lightpink;
+    width: fit-content;
+    display: table;
+    margin: 1% auto;
+}
+
+h2 h3 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.skills ul {
+    display: table;
+    margin: 1% auto;
+}
+
+/* EXPERIENCE SECTION OFF */
+
+/* STUDIES SECTION ON */
+#studies a img {
+    width: 20%;
+    height: auto;
+    display: table;
+    margin: 1% auto;
+    border: 0.5em double papayawhip;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+#studies a img:hover {
+    box-shadow: 0em 0em 0.25em 0.150em lightcoral;
+}
+
+/* STUDIES SECTION OFF */
+
+/* FOOTER ON */
+.copyright {
+    font-style: italic;
+    background-color: #ffc0cb;
+    margin-bottom: 0;
+}
+
+/* FOOTER OFF */
+
+hr {
+    border-color: pink;
+    margin: 1% 25%;
+}
